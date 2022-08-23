@@ -1,0 +1,232 @@
+body{
+    
+     margin: 0%;
+    /* font-size: 2rem;  */
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.btn{
+    background: red;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.global-msg{
+    background: rgba(82, 23, 171, 0.693);
+    color: white;
+    line-height: 32px;
+}
+
+
+.gbl-content {
+    display:flex;
+    justify-content: space-between;
+
+}
+.nav-bar{
+    background: rgb(8, 86, 169);
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+/* top nav section  */
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+
+
+}
+
+.menu ul li{
+    margin-left: 16px;
+}
+.hero{
+    background: url(img/hero.jpg) no-repeat center center ;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    background: rgba(0, 0, 0, 0.042);
+    width: 450px;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* main section */
+.main{
+    display: flex;
+    margin-top: 32px;
+}
+
+.main-content {
+    width: 66%;
+    margin-right: 1rem;
+}
+.side-links{
+    width: 34%;
+
+}
+.try{
+    display: flex;
+    justify-content: right;
+
+}
+
+article{
+    display: flex;
+    border: 3px double #ccc;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+
+
+/* recc section  */
+.recc{
+    background: rgba(6, 41, 64, 0.362);
+    margin-top: 2 rem;
+    padding: 2 ren 0;
+
+}
+.card-list{
+    display:flex;
+    justify-content:space-between;
+}
+.card{
+    width: 300px;
+    margin: 10px 15px;
+    background: white;
+    border-radius: 5px;
+    padding-bottom: 1 rem;
+     box-shadow:-5px 5px 15px 5px rgba(0, 162, 255, 0.371);
+}
+.card img{
+    border-radius: 5px 5px 0px 0px;
+}
+.btn-card{
+    width: 160px;
+}
+
+
+
+/* Subscription section?? */
+.subs{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/* .subs form{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.footer{
+    background: #000;
+    color: white;
+    padding: 32PX;
+    text-align:center ;
+    margin-top: 32px;.art-img{
+    width: 400px;
+    margin-top: ;
+}
+}
+
+
+/* media query?
+@media (max-width: 600px){
+    .gloabal-msg{
+        display: none;
+        background: red;
+        color: #000;
+        font-size: 2rem;
+    }
+} */
+
+
+.art-img{
+    width: 400px;
+    margin-top: ;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.read-by-country{
+    background: rgba(50, 8, 128, 0.086);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 3.5rem;
+}
+
+
+
+
+
+
+@media(max-width:600px )
+{
+    .main{
+        display: felx;
+        flex-direction:column;
+    }
+    .main-content {
+        width: 100%;
+        margin-right: 0;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .art-img{
+        width: 100%;
+        margin-right:
+    }
+    .side-links{
+        width: 100%;
+        display: flex;
+    }
+    .side-links > div {
+        width: 100%;
+    }
+    .card-list{
+        display:flex;
+        flex-direction: column;
+    
+    }
+
+}
+
+@media(max-width:992px )
+{
+
+
+}
+
+
+
